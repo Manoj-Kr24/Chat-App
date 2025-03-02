@@ -113,7 +113,13 @@ const Login = () => {
           />
 
           <InputRightElement>
-            <Button h="1.75rem" size="sm" onClick={handleClick}>
+            <Button
+              h="1.75rem"
+              size="sm"
+              onClick={handleClick}
+              m="5px"
+              p="20px"
+            >
               {show ? "Hide" : "Show"}
             </Button>
           </InputRightElement>
